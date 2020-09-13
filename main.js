@@ -15,7 +15,8 @@ function createWindow () {
   mainWindow.maximize()
 
   // and load the index.html of the app.
-  mainWindow.loadURL('http://music.jsososo.com')
+  //mainWindow.loadURL('http://music.jsososo.com')
+  mainWindow.loadFile('index.html')
 
 
   mainWindow.once('ready-to-show', () => {
